@@ -1,0 +1,9 @@
+﻿<div class="featured">
+    <h2>Featured Item</h2>
+    @Model.ProductViewModel.Name
+    <img src="@Model.ProductViewModel.ImageUrl" alt="@Model.ProductViewModel.Name" />
+    <a href="index.html"><h3>@Model.ProductViewModel.Name</h3></a>
+    <div class="release_date">Release: @Model.ProductViewModel.ReleaseDate</div>
+    <div class="price">Price: @Model.ProductViewModel.Price</div>
+    @Model.ProductViewModel.Description
+</div>
